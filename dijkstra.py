@@ -61,7 +61,7 @@ def dijkstra(edges, from_node, to_node):
     return len_shortest_path,ret_path
 
 def dij_mat(vertexes, edges, to_node):
-    print "Calculating DIJ"
+    #print "Calculating DIJ"
     maxnum = len(vertexes)
     dij_cost = []
     for i in range(maxnum):
